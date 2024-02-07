@@ -1,5 +1,9 @@
-{% for city in site.germany %}
-  <h2>{{ city.title }}</h2>
+{% for city in site.[include.collection] %}
+  <h2>
+    <a href="{{ city.url }}">
+      {{ city.title }}
+    </a>
+  </h2>
   <p>{{ city.content | markdownify }}</p>
 {% endfor %}
 

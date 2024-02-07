@@ -4,9 +4,7 @@ title: "GERMANY"
 permalink: /germany/
 ---
 
-Images of Marburg, Rehungen, Harsleben, Greifenhagen, Pfeiffhausen, and Bad Lauchstädt will be displayed here.
-
-{% for country in site.countries %}
-  <h2>{{ country.title }}</h2>
-  <p>{{ country.content | markdownify }}</p>
+{% for city in site.germany %}
+  <h2>{{ germany.title }}</h2>
+  <p>{{ germany.content | markdownify }}</p>
 {% endfor %}

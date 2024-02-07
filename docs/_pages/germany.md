@@ -4,4 +4,4 @@ title: "GERMANY"
 permalink: /germany/
 ---
 
-{% include list-collection collection='germany' %}
+{% include cities collection='germany' %}

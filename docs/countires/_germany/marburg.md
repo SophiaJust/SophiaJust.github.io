@@ -1,6 +1,5 @@
 ---
 title: "Marburg"
-permalink: /germany/marburg/
 ---
 
 ## Latest Images

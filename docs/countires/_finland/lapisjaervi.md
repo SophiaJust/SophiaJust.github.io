@@ -1,6 +1,5 @@
 ---
-title: "Lapisjärvi"
-permalink: /finland/lapisjaervi/
+title: "Lapisjaervi"
 ---
 
 ## Latest Images

@@ -1,9 +1,7 @@
 ---
 title: "GERMANY"
 permalink: /germany/
-layout: collection
-collection: germany
-entries_layout: grid
+layout: single
 classes: wide
 sidebar: false
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Site 1"
+layout: page
 ---
 
 ## Latest Images

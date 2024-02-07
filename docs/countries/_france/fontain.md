@@ -1,6 +1,5 @@
 ---
 title: Fontain
-layout: page
 ---
 
 ## latest images

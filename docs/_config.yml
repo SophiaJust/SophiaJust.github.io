@@ -29,9 +29,16 @@ github_username:  SophiaJust
 # Build settings
 # theme: minima
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+
+# conversion
+markdown: kramdown
 
 include:
   - _pages
@@ -48,6 +55,15 @@ collections:
   finland:
     output: true
     permalink: /:collection/:title.html
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
 
 # Exclude from processing.
 # The following items will not be processed, by default.

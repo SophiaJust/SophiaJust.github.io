@@ -1,6 +1,5 @@
 ---
 title: Fontain
-permalink: /france/fontain/
 ---
 
 ## latest images

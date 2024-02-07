@@ -1,5 +1,6 @@
 ---
 title: "Marburg"
+layout: page
 ---
 
 ## Latest Images

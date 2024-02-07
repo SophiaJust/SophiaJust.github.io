@@ -4,7 +4,9 @@ title: "Marburg"
 
 ## Latest Images
 
-[tree 1] [tree 2] [tree 3]
+*This is a test image!*
+
+![testphoto](../../assets/NRT/germany/marburg/SYPR0024.JPG)
 
 ## Past Month
 

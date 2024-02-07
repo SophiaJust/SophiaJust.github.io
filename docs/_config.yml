@@ -64,6 +64,24 @@ defaults:
       type: pages
     values:
       layout: single
+  # germany
+  - scope:
+      path: ""
+      type: germany
+    values:
+      layout: single
+  # france
+  - scope:
+      path: ""
+      type: france
+    values:
+      layout: single
+  # finland
+  - scope:
+      path: ""
+      type: finland
+    values:
+      layout: single
 
 # Exclude from processing.
 # The following items will not be processed, by default.

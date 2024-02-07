@@ -1,19 +1,19 @@
 # main links
 main:
   - title: "GERMANY"
-    url: /germany.html
+    url: /germany/
   - title: "FRANCE"
-    url: /france.html
+    url: /france/
   - title: "FINLAND"
-    url: /finland.html 
+    url: /finland/
     
     
 docs:
   - title: Ways out
     children:
       - title: "GERMANY"
-        url: /germany.html
+        url: /germany/
       - title: "FRANCE"
-        url: /france.html
+        url: /france/
       - title: "FINLAND"
-        url: /finland.html 
+        url: /finland/

@@ -34,12 +34,18 @@ plugins:
 include:
   - _pages
 
-collections_dir: _pages
+collections_dir: countries
 
 collections:
   germany:
     output: true
-  
+    permalink: /:collection/:title.html
+  france:
+    output: true
+    permalink: /:collection/:title.html
+  finland:
+    output: true
+    permalink: /:collection/:title.html
 
 # Exclude from processing.
 # The following items will not be processed, by default.

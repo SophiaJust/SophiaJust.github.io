@@ -1,0 +1,19 @@
+# main links
+main:
+  - title: "GERMANY"
+    url: /germany.html
+  - title: "FRANCE"
+    url: /france.html
+  - title: "FINLAND"
+    url: /finland.html 
+    
+    
+docs:
+  - title: Ways out
+    children:
+      - title: "GERMANY"
+        url: /germany.html
+      - title: "FRANCE"
+        url: /france.html
+      - title: "FINLAND"
+        url: /finland.html 

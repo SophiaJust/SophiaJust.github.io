@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "FINLAND"
 permalink: /finland/
 ---

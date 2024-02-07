@@ -33,7 +33,13 @@ plugins:
 
 include:
   - _pages
-  - _pages/_germany
+
+collections_dir: _pages
+
+collections:
+  germany:
+    output: true
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default.

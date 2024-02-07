@@ -1,6 +1,5 @@
 ---
 title: "Bordeaux"
-layout: page
 ---
 
 ## Latest Images

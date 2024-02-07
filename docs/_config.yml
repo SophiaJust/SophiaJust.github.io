@@ -27,9 +27,11 @@ url: https://SophiaJust.github.io # the base hostname & protocol for your site, 
 github_username:  SophiaJust
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 include:
   - _pages

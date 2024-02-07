@@ -4,4 +4,4 @@ title: "FINLAND"
 permalink: /finland/
 ---
 
-Images of Lapinjärvi will be displayed here.
+{% include cities.html collection='finland' %}

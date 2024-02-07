@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Marburg"
 permalink: /germany/marburg/
 ---

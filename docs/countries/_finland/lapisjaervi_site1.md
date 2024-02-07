@@ -1,6 +1,6 @@
 ---
 title: "Site 1"
-layout: page
+layout: single
 ---
 
 ## Latest Images

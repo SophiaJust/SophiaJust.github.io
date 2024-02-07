@@ -1,5 +1,5 @@
 ---
-title: "Lapisjaervi"
+title: "Site 1"
 ---
 
 ## Latest Images

@@ -1,6 +1,6 @@
 ---
 title: "Rehungen"
-layout: page
+layout: single
 ---
 
 ## Latest Images

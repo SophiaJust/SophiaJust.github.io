@@ -1,5 +1,5 @@
-{% for page in site.[include.collection] %}
-  {% unless page.published == false %}
-    a href="{{ site.url }}{{ page.url }}">{{ page.title }}
-  {% endunless %}
+{% for city in site.germany %}
+  <h2>{{ city.title }}</h2>
+  <p>{{ city.content | markdownify }}</p>
 {% endfor %}
+

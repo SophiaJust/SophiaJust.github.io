@@ -5,6 +5,6 @@ permalink: /germany/
 ---
 
 {% for city in site.germany %}
-  <h2>{{ germany.title }}</h2>
-  <p>{{ germany.content | markdownify }}</p>
+  <h2>{{ city.title }}</h2>
+  <p>{{ city.content | markdownify }}</p>
 {% endfor %}

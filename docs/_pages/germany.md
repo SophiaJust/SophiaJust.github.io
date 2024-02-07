@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "GERMANY"
-permalink: /germany/
 ---
 
 {% for city in site.germany %}

@@ -2,7 +2,6 @@
 layout: single
 sidebar:
   nav: "main"
-classes: wide
 ---
 
 Images are captured every 30 Minutes.

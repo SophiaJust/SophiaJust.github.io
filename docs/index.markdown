@@ -21,7 +21,7 @@ Images are captured every 30 Minutes.
 
 ## Germany
 
-{% include cities.html collection ="platform_3_germany" %}
+{% include cities.html collection ="platform_3_germany" %} {% include cities.html collection ="platform_3_france" %}
 
 ## France
 

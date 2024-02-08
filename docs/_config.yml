@@ -67,6 +67,8 @@ defaults:
       type: pages
     values:
       layout: single
+      sidebar:
+        nav: "main"
   # platform_3_germany
   - scope:
       path: ""
@@ -74,6 +76,8 @@ defaults:
     values:
       layout: single
       category: "Platform 3"
+      sidebar:
+        nav: "main"
   # platform_3_france
   - scope:
       path: ""
@@ -81,6 +85,8 @@ defaults:
     values:
       layout: single
       category: "Platform 3"
+      sidebar:
+        nav: "main"
   # platform_3_finland
   - scope:
       path: ""
@@ -88,6 +94,8 @@ defaults:
     values:
       layout: single
       category: "Platform 3"
+      sidebar:
+        nav: "main"
   # platform_2
   - scope:
       path: ""
@@ -95,6 +103,8 @@ defaults:
     values:
       layout: single
       category: "Platform 2"
+      sidebar:
+        nav: "main"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

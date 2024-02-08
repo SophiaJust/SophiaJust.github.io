@@ -7,10 +7,9 @@ classes: wide
 
 **These are a test images!**
 
-|Tree 1                                                 |Tree 2                                                 |Tree 3                                                 |
-|-------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------|
-|![tree-1](../../assets/NRT/germany/marburg/tree1.JPG)  |![tree-1](../../assets/NRT/germany/marburg/tree2.JPG)  |![tree-1](../../assets/NRT/germany/marburg/tree3.JPG)  |
-
+| Tree 1 | Tree 2 | Tree 3 |
+| --- | --- | --- |
+| <a href="../../assets/NRT/germany/marburg/tree1.JPG"><img src="../../assets/NRT/germany/marburg/tree1.JPG" alt="Tree1" width="200" height="150"></a> | <a href="../../assets/NRT/germany/marburg/tree2.JPG"><img src="../../assets/NRT/germany/marburg/tree2.JPG" alt="Tree1" width="200" height="150"></a> | <a href="../../assets/NRT/germany/marburg/tree3.JPG"><img src="../../assets/NRT/germany/marburg/tree3.JPG" alt="Tree1" width="200" height="150"></a> |
 
 ## Past Month
 

@@ -1,6 +1,7 @@
 ---
 layout: single
-sidebar: false
+sidebar:
+  nav: "main"
 classes: wide
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Marburg"
 layout: single
+permalink: /platform_2/marburg/
 sidebar:
   - title: "Marburg"
     url: /platform_2/marburg.html

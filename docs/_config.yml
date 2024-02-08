@@ -40,7 +40,9 @@ plugins:
 # conversion
 markdown: kramdown
 
-include: ["_pages"]
+include:
+  - _pages
+  - _platform_2
 
 collections_dir: platform_3
 

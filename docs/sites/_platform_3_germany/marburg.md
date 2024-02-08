@@ -1,6 +1,5 @@
 ---
 title: "Marburg"
-layout: single
 ---
 
 ## Latest Images

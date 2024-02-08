@@ -3,27 +3,27 @@ main:
     url: /platform_2/
     children:
       - title: "Basel"
-        url: /platform_2/basel.html
+        url: /platform_2/basel_2.html
       - title: "Marburg"
-        url: /platform_2/marburg.html
+        url: /platform_2/marburg_2.html
   - title: "Platform III - Transect"
     url: /platform_3/
     children:
       - title: "Bad Lauchstaedt"
-        url: /platform_3_germany/badlauchstaedt.html
+        url: /platform_3_germany/badlauchstaedt_3.html
       - title: "Bordeaux"
-        url: /platform_3_germany/bordeaux.html
+        url: /platform_3_france/bordeaux_3.html
       - title: "Fontain"
-        url: /platform_3_germany/fontain.html
+        url: /platform_3_france/fontain_3.html
       - title: "Greifenhagen"
-        url: /platform_3_germany/greifenhagen.html
+        url: /platform_3_germany/greifenhagen_3.html
       - title: "Harsleben"
-        url: /platform_3_germany/harsleben.html
+        url: /platform_3_germany/harsleben_3.html
       - title: "Lapisjaervi"
-        url: /platform_3_germany/lapisjaervi.html
+        url: /platform_3_finland/lapisjaervi_3.html
       - title: "Marburg"
-        url: /platform_3_germany/marburg.html
+        url: /platform_3_germany/marburg_3.html
       - title: "Pfeiffhausen"
-        url: /platform_3_germany/pfeiffhausen.html
+        url: /platform_3_germany/pfeiffhausen_3.html
       - title: "Rehungen"
-        url: /platform_3_germany/rehungen.html
+        url: /platform_3_germany/rehungen_3.html

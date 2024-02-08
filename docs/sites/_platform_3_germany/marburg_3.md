@@ -20,7 +20,7 @@ gallery_NRT:
 
 **These are a test images!**
 
-{% include gallery_NRT %}
+{% include dynamic_gallery.html folder="/platform_3/marburg/" %}
 
 | Tree 1 | Tree 2 | Tree 3 |
 | --- | --- | --- |

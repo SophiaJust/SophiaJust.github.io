@@ -42,20 +42,22 @@ markdown: kramdown
 
 include:
   - _pages
-  - _platform_2
 
-collections_dir: platform_3
+collections_dir: sites
 
 collections:
-  germany:
+  platform_3_germany:
     output: true
-    permalink: /platform_3/:collection/:title.html
-  france:
+    permalink: /:collection/:title.html
+  platform_3_france:
     output: true
-    permalink: /platform_3/:collection/:title.html
-  finland:
+    permalink: /:collection/:title.html
+  platform_3_finland:
     output: true
-    permalink: /platform_3/:collection/:title.html
+    permalink: /:collection/:title.html
+  platform_2:
+    output: true
+    permalink: /:collection/:title.html
 
 # Defaults
 defaults:
@@ -65,22 +67,28 @@ defaults:
       type: pages
     values:
       layout: single
-  # germany
+  # platform_3_germany
   - scope:
       path: ""
-      type: germany
+      type: platform_3_germany
     values:
       layout: single
-  # france
+  # platform_3_france
   - scope:
       path: ""
-      type: france
+      type: platform_3_france
     values:
       layout: single
-  # finland
+  # platform_3_finland
   - scope:
       path: ""
-      type: finland
+      type: platform_3_finland
+    values:
+      layout: single
+  # platform_2
+  - scope:
+      path: ""
+      type: platform_2
     values:
       layout: single
 

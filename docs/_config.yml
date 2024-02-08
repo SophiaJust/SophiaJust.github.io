@@ -73,24 +73,28 @@ defaults:
       type: platform_3_germany
     values:
       layout: single
+      category: "Platform 3"
   # platform_3_france
   - scope:
       path: ""
       type: platform_3_france
     values:
       layout: single
+      category: "Platform 3"
   # platform_3_finland
   - scope:
       path: ""
       type: platform_3_finland
     values:
       layout: single
+      category: "Platform 3"
   # platform_2
   - scope:
       path: ""
       type: platform_2
     values:
       layout: single
+      category: "Platform 2"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

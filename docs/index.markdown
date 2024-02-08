@@ -14,9 +14,7 @@ Images are captured every 30 Minutes.
   
 # Platform II
 
-![Marburg](https://github.com/SophiaJust/SophiaJust.github.io/platform_2/marburg/)
-
-![Basel](https://github.com/SophiaJust/SophiaJust.github.io/platform_2/basel/)
+{% include cities.html collection ="platform_2" %}
   
   
 # Platform III

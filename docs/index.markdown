@@ -19,9 +19,17 @@ Images are captured every 30 Minutes.
   
 # Platform III
 
-| Germany                                                    | France                                                    | Finland                                                    |
-|------------------------------------------------------------|-----------------------------------------------------------|------------------------------------------------------------|
-| {% include cities.html collection ="platform_3_germany" %} | {% include cities.html collection ="platform_3_france" %} | {% include cities.html collection ="platform_3_finland" %} |
+## Germany
+
+{% include cities.html collection ="platform_3_germany" %}
+
+## France
+
+{% include cities.html collection ="platform_3_france" %}
+
+## Finland
+
+{% include cities.html collection ="platform_3_finland" %}
 
 
 

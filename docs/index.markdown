@@ -1,7 +1,5 @@
 ---
-layout: single
-classes: wide
-sidebar: false
+layout: home
 ---
 
 Images are captured every 30 Minutes.
@@ -22,6 +20,14 @@ Images are captured every 30 Minutes.
 ## Germany
 
 {% include cities.html collection ="platform_3_germany" %}
+
+## France
+
+{% include cities.html collection ="platform_3_france" %}
+
+## Finland
+
+{% include cities.html collection ="platform_3_finland" %}
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Lapisjaervi"
-layout: single
+
 ---
 
 # Site 1

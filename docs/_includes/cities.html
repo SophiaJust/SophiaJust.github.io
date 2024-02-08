@@ -1,8 +1,6 @@
 {% for city in site.[include.collection] %}
-  <h3>  
-    <a href="{{ city.url }}">
-      {{ city.title }}
-    </a> 
-  </h3>
+  <a href="{{ city.url }}">
+    {{ city.title }}
+  </a> 
 {% endfor %}
 

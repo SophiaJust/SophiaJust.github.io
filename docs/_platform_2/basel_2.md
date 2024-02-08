@@ -1,8 +1,12 @@
 ---
 title: "Basel"
 layout: single
-sidebar: false
-classes: wide
+permalink: /platform_2/basel/
+sidebar:
+  - title: "Marburg"
+    url: /platform_2/marburg/
+  - title: "Basel"
+    url: /platform_2/basel/
 ---
 
 ## Latest Images

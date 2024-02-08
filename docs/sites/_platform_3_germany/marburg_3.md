@@ -20,8 +20,8 @@ gallery_NRT:
 
 **These are a test images!**
 
-{% include dynamic_gallery.html folder="/NRT/platform_3/marburg/" %}
+{% include dynamic_gallery_NRT.html folder="/NRT/platform_3/marburg/" %}
 
 ## Past Month
 
-{% include dynamic_gallery.html folder="/archive/platform_3/marburg/" %}
+{% include dynamic_gallery_archive.html folder="/archive/platform_3/marburg/" %}

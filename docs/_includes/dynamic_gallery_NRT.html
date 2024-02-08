@@ -10,7 +10,6 @@
 
       {% assign filenameparts = file.path | split: "/" %}
       {% assign filename = filenameparts | last | replace: file.extname,"" %}
-			<p> filename </p>
 			<img src="{{ file.path }}" alt="" width="300" height="225">
     {% endif %}
   {% endif %}

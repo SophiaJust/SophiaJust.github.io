@@ -1,0 +1,27 @@
+nav:
+  - title: "Platform II - CEE"
+    children:
+      - title: "Basel"
+        url: /platform_2/basel/
+      - title: "Marburg"
+        url: /platform_2/marburg/
+  - title: "Platform III - Transect"
+    children:
+      - title: "Bad Lauchstaedt"
+        url: /platform_3_germany/badlauchstaedt/
+      - title: "Bordeaux"
+        url: /platform_3_germany/bordeaux/
+      - title: "Fontain"
+        url: /platform_3_germany/fontain/
+      - title: "Greifenhagen"
+        url: /platform_3_germany/greifenhagen/
+      - title: "Harsleben"
+        url: /platform_3_germany/harsleben/
+      - title: "Lapisjaervi"
+        url: /platform_3_germany/lapisjaervi/
+      - title: "Marburg"
+        url: /platform_3_germany/marburg/
+      - title: "Pfeiffhausen"
+        url: /platform_3_germany/pfeiffhausen/
+      - title: "Rehungen"
+        url: /platform_3_germany/rehungen/

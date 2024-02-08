@@ -1,6 +1,11 @@
 ---
 title: "Marburg"
 layout: single
+sidebar:
+  - title: "Marburg"
+    url: /platform_2/marburg.html
+  - title: "Basel"
+    url: /platform_2/basel.html
 ---
 
 ## Latest Images

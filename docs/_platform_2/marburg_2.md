@@ -4,9 +4,9 @@ layout: single
 permalink: /platform_2/marburg/
 sidebar:
   - title: "Marburg"
-    url: /platform_2/marburg.html
+    url: /platform_2/marburg/
   - title: "Basel"
-    url: /platform_2/basel.html
+    url: /platform_2/basel/
 ---
 
 ## Latest Images

@@ -47,13 +47,13 @@ collections_dir: platform_3
 collections:
   germany:
     output: true
-    permalink: /:collection/:title.html
+    permalink: /platform_3/:collection/:title.html
   france:
     output: true
-    permalink: /:collection/:title.html
+    permalink: /platform_3/:collection/:title.html
   finland:
     output: true
-    permalink: /:collection/:title.html
+    permalink: /platform_3/:collection/:title.html
 
 # Defaults
 defaults:

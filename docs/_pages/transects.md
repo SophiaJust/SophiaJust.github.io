@@ -1,22 +1,11 @@
 ---
-title: "European Transect"
-subtitle: "Finland - Germany - France"
-permalink: /platform_3/
+title: "European Transect Study"
+permalink: /transects/
+sidebar:
+  nav: "transects"
 ---
 
 The European transect study assesses clonal oak saplings released across Germany and Europe for analyzing A&A patterns under a wide range of environmental conditions.
-
-## Transect 1: Europe
-
-{% include cities.html collection="platform_3_europe" %}
-
-## Transect 2: drought exposed grassland sites
-
-{% include cities.html collection="platform_3_drought" %}
-
-## Transect 3: forest Sites
-
-{% include cities.html collection="platform_3_forest" %}
 
 # Setup
 

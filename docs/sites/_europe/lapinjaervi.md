@@ -1,5 +1,5 @@
 ---
-title: "Lapinjaervi"
+title: "Lapinjärvi"
 ---
 
 # Latest Images

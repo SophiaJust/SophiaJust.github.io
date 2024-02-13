@@ -1,29 +1,46 @@
 main:
-  - title: "Platform II - CEE"
+  - title: "Platform II"
     url: /platform_2/
+  - title: "Platform III"
+    url: /platform_3/
+
+CEE:
+  - title: "Canopy Exposition Experiments"
     children:
       - title: "Basel"
-        url: /platform_2/basel_2.html
+        url: /platform_2/basel.html
       - title: "Marburg"
-        url: /platform_2/marburg_2.html
-  - title: "Platform III - Transect"
-    url: /platform_3/
+        url: /platform_2/marburg.html
+
+transects:
+  - title: "European Transect"
     children:
       - title: "Bad Lauchstaedt"
-        url: /platform_3_germany/badlauchstaedt_3.html
+        url: /platform_3_europe/badlauchstaedt.html
       - title: "Bordeaux"
-        url: /platform_3_france/bordeaux_3.html
+        url: /platform_3_europe/bordeaux.html
       - title: "Fontain"
-        url: /platform_3_france/fontain_3.html
-      - title: "Greifenhagen"
-        url: /platform_3_germany/greifenhagen_3.html
-      - title: "Harsleben"
-        url: /platform_3_germany/harsleben_3.html
+        url: /platform_3_europe/fontain.html
       - title: "Lapinjaervi"
-        url: /platform_3_finland/lapinjaervi_3.html
-      - title: "Marburg"
-        url: /platform_3_germany/marburg_3.html
-      - title: "Pfeiffhausen"
-        url: /platform_3_germany/pfeiffhausen_3.html
-      - title: "Rehungen"
-        url: /platform_3_germany/rehungen_3.html
+        url: /platform_3_europe/lapinjaervi.html
+  - title: "Drought Exposed Grassland Sites"
+    children:
+      - title: "Bad Lauchstaedt"
+        url: /platform_3_grassland/badlauchstaedt.html
+      - title: "Greifenhagen"
+        url: /platform_3_grassland/greifenhagen.html
+      - title: "Harsleben"
+        url: /platform_3_grassland/harsleben.html
+      - title: "Lapinjaervi"
+        url: /platform_3_grassland/lapinjaervi.html
+  - title: "Forest Sites"
+    children:
+      - title: "Fontain"
+        url: /platform_3_forest/fontain.html
+      - title: "Leipzig"
+        url: /platform_3_forest/leipzig.html
+      - title: "Rehungen 1"
+        url: /platform_3_forest/rehungen_1.html
+      - title: "Rehungen 2"
+        url: /platform_3_grassland/rehungen_2.html
+

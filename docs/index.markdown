@@ -1,7 +1,7 @@
 ---
 layout: single
 sidebar:
-  nav: "main"
+  imgage: "/assets/sketches/oak.png"
 ---
 
 Images are captured every 30 Minutes.

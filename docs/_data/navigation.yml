@@ -31,8 +31,8 @@ transects:
         url: /grassland/greifenhagen.html
       - title: "Harsleben"
         url: /grassland/harsleben.html
-      - title: "Lapinjaervi"
-        url: /grassland/lapinjaervi.html
+      - title: "Pfeiffhausen"
+        url: /grassland/pfeiffhausen.html
   - title: "Forest Sites"
     children:
       - title: "Fontain"

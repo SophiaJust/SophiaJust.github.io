@@ -5,7 +5,7 @@ main:
     url: /transects/
 
 CEE:
-  - title: "Canopy Exposition Experiments"
+  - title: "Sites"
     children:
       - title: "Basel"
         url: /CEE/basel.html

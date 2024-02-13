@@ -1,46 +1,46 @@
 main:
   - title: "Platform II"
-    url: /platform_2/
+    url: /CEE/
   - title: "Platform III"
-    url: /platform_3/
+    url: /transects/
 
 CEE:
   - title: "Canopy Exposition Experiments"
     children:
       - title: "Basel"
-        url: /platform_2/basel.html
+        url: /CEE/basel.html
       - title: "Marburg"
-        url: /platform_2/marburg.html
+        url: /CEE/marburg.html
 
 transects:
   - title: "European Transect"
     children:
       - title: "Bad Lauchstaedt"
-        url: /platform_3_europe/badlauchstaedt.html
+        url: /europe/badlauchstaedt.html
       - title: "Bordeaux"
-        url: /platform_3_europe/bordeaux.html
+        url: /europe/bordeaux.html
       - title: "Fontain"
-        url: /platform_3_europe/fontain.html
+        url: /europe/fontain.html
       - title: "Lapinjaervi"
-        url: /platform_3_europe/lapinjaervi.html
+        url: /europe/lapinjaervi.html
   - title: "Drought Exposed Grassland Sites"
     children:
       - title: "Bad Lauchstaedt"
-        url: /platform_3_grassland/badlauchstaedt.html
+        url: /grassland/badlauchstaedt.html
       - title: "Greifenhagen"
-        url: /platform_3_grassland/greifenhagen.html
+        url: /grassland/greifenhagen.html
       - title: "Harsleben"
-        url: /platform_3_grassland/harsleben.html
+        url: /grassland/harsleben.html
       - title: "Lapinjaervi"
-        url: /platform_3_grassland/lapinjaervi.html
+        url: /grassland/lapinjaervi.html
   - title: "Forest Sites"
     children:
       - title: "Fontain"
-        url: /platform_3_forest/fontain.html
+        url: /forest/fontain.html
       - title: "Leipzig"
-        url: /platform_3_forest/leipzig.html
+        url: /forest/leipzig.html
       - title: "Rehungen 1"
-        url: /platform_3_forest/rehungen_1.html
+        url: /forest/rehungen_1.html
       - title: "Rehungen 2"
-        url: /platform_3_grassland/rehungen_2.html
+        url: /forest/rehungen_2.html
 

@@ -1,5 +1,5 @@
 ---
-title: "Lapisjaervi"
+title: "Lapinjaervi"
 
 ---
 

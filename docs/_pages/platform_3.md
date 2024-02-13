@@ -6,6 +6,20 @@ permalink: /platform_3/
 
 The European transect study assesses clonal oak saplings released across Germany and Europe for analyzing A&A patterns under a wide range of environmental conditions.
 
+## Transect 1: Europe
+
+{% include cities.html collection="platform_3_europe" %}
+
+## Transect 2: drought exposed grassland sites
+
+{% include cities.html collection="platform_3_drought" %}
+
+## Transect 3: forest Sites
+
+{% include cities.html collection="platform_3_forest" %}
+
+# Setup
+
 [setup](../assets/sketches/setup_platform_3.png)
 
 On each plot, three cameras are installed, each monitoring a **north facing target branch** on a focal tree. Cameras are installed on a tripod beside the tree.

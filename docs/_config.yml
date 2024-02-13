@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+ope# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -46,16 +46,16 @@ include:
 collections_dir: sites
 
 collections:
-  platform_3_germany:
+  europe:
     output: true
     permalink: /:collection/:title.html
-  platform_3_france:
+  grassland:
     output: true
     permalink: /:collection/:title.html
-  platform_3_finland:
+  forest:
     output: true
     permalink: /:collection/:title.html
-  platform_2:
+  CEE:
     output: true
     permalink: /:collection/:title.html
 
@@ -67,44 +67,42 @@ defaults:
       type: pages
     values:
       layout: single
-      sidebar:
-        nav: "main"
-  # platform_3_germany
+  # europe
   - scope:
       path: ""
-      type: platform_3_germany
+      type: europe
     values:
       layout: single
-      category: "Platform 3"
+      categories: transects europe
       sidebar:
-        nav: "main"
-  # platform_3_france
+        nav: "europe"
+  # grassland
   - scope:
       path: ""
-      type: platform_3_france
+      type: grassland
     values:
       layout: single
-      category: "Platform 3"
+      categories: transects grassland
       sidebar:
-        nav: "main"
-  # platform_3_finland
+        nav: "grassland"
+  # forest
   - scope:
       path: ""
-      type: platform_3_finland
+      type: forest
     values:
       layout: single
-      category: "Platform 3"
+      categories: transects europe
       sidebar:
-        nav: "main"
-  # platform_2
+        nav: "forest"
+  # CEE
   - scope:
       path: ""
-      type: platform_2
+      type: CEE
     values:
       layout: single
-      category: "Platform 2"
+      categories: transects europe
       sidebar:
-        nav: "main"
+        nav: "CEE"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

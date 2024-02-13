@@ -9,4 +9,4 @@ classes: wide
 
 ## Past Month
 
-{% include dynamic_gallery_archive.html folder="/transects/forest/rehungen_2/archive/" %}
+{% include dynamic_gallery_archive.html folder="/transects/forest/rehungen_1/archive/" %}

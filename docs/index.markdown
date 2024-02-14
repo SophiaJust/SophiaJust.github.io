@@ -1,7 +1,8 @@
 ---
 layout: single
 sidebar:
-  imgage: "/assets/sketches/Processes_SP6.png"
+  - title: ""
+    imgage: "/assets/sketches/Processes_SP6.png"
 ---
 
 Images are captured every 30 Minutes.

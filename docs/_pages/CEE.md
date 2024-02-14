@@ -11,6 +11,6 @@ The canopy exposition experiments expose oak clonal saplings to the varying micr
 
 There are 3 cameras placed on the platforms themeselves, 1 per platform. Additionally, there is one camera per stratum placed at a nearby branch of the adult tree.
 
-<img src="../assets/sketches/setup_platform_2.png" alt="setup CEE" width="300" height="auto" align="left">
+<img src="../assets/sketches/setup_platform_2.png" alt="setup CEE platform" width="300" height="auto" align="left">
 
-<img src="../assets/sketches/setup_platform_2_AdultBranches.png" alt="setup CEE" width="300" height="auto" align="right">
+<img src="../assets/sketches/setup_platform_2_AdultBranches.png" alt="setup CEE adult branch" width="300" height="auto" align="right">

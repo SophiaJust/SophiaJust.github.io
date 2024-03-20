@@ -7,8 +7,8 @@ classes: wide
 
 ## Latest Images
 
-{% include fetch_images_from_server.html folder="/platform2/Plot1/cam1/NRT/" %}
+{% include fetch_images_from_server.html folder="platform2/Plot1/cam1/NRT/" %}
 
 ## Past Month
 
-{% include fetch_images_from_server.html folder="/platform2/Plot1/cam1/archive/" %}
+{% include fetch_images_from_server.html folder="platform2/Plot1/cam1/archive/" %}

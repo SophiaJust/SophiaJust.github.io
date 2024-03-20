@@ -43,7 +43,12 @@
       const imageUrl = folderPath + link.getAttribute('href');
       const img = document.createElement('img');
       img.src = imageUrl;
-      img.alt = link.textContent || 'Image';
+
+      // Generate alt text based on filename
+      const filename = link.getAttribute('href').split('/').pop(); // Extract filename
+      const altText = filename.substring(0, filename.lastIndexOf('.')); // Remove file extension
+      img.alt = altText; // Set alt text
+      
       gallery.appendChild(img);
     });
   }

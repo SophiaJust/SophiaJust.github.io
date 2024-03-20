@@ -7,8 +7,8 @@ classes: wide
 
 ## Latest Images
 
-{% include dynamic_gallery_NRT.html folder="/transects/europe/badlauchstaedt/NRT/" %}
+{% include fetch_images_from_server.html folder="/platform2/Plot1/cam1/NRT/" %}
 
 ## Past Month
 
-{% include dynamic_gallery_archive.html folder="/transects/europe/badlauchstaedt/archive/" %}
+{% include fetch_images_from_server.html folder="/platform2/Plot1/cam1/archive/" %}

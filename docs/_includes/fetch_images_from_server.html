@@ -27,8 +27,9 @@
 <script>
   // Path to the folder containing images on Apache server
   const serverURL = 'http://85.214.136.59/camhi_data/';
+  const folder = 'platform2/Plot1/cam1/NRT/'
   // concatenate server URL with the folder path (eg 'platform2/Plot1/cam1/')
-  const folderPath = ${serverURL}${include.folder};
+  const folderPath = '${serverURL}${folder}';
 
   // Function to fetch images and display them
   async function fetchAndDisplayImages() {

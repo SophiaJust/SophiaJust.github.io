@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+<style>
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+  }
+</style>
+</head>
+<body>
+
+<h1>Image Gallery</h1>
+
+<div class="gallery" id="image-gallery">
+  <!-- Images will be dynamically added here -->
+</div>
+
+<script>
+  // Path to the folder containing images on Apache server
+  const serverURL = 'http://85.214.136.59/camhi_data/';
+  // concatenate server URL with the folder path (eg 'platform2/Plot1/cam1/')
+  const folderPath = ${serverURL}${include.folder};
+
+  // Function to fetch images and display them
+  async function fetchAndDisplayImages() {
+    const response = await fetch(folderPath);
+    const html = await response.text();
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, 'text/html');
+    const links = doc.querySelectorAll('a[href$=".jpg"], a[href$=".jpeg"], a[href$=".png"], a[href$=".gif"]');
+    const gallery = document.getElementById('image-gallery');
+
+    links.forEach(link => {
+      const imageUrl = folderPath + link.getAttribute('href');
+      const img = document.createElement('img');
+      img.src = imageUrl;
+      img.alt = link.textContent || 'Image';
+      gallery.appendChild(img);
+    });
+  }
+
+  // Call the function to fetch and display images
+  fetchAndDisplayImages().catch(error => {
+    console.error('Error fetching images:', error);
+  });
+</script>
+
+</body>
+</html>

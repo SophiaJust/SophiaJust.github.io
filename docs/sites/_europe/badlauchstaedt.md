@@ -20,4 +20,3 @@ classes: wide
 
 ## Past Month
 
-{% include fetch_images_from_server.html folder="platform2/Plot1/cam1/archive/" %}

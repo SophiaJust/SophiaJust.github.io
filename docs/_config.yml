@@ -42,7 +42,6 @@ markdown: kramdown
 
 include:
   - _pages
-  - _data
 
 collections_dir: sites
 

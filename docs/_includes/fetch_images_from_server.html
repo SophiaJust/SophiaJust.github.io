@@ -1,7 +1,7 @@
-<h1>[include.header]</h1>
+<h1>{{ include.header }}</h1>
 
 <div class="gallery">
-  {% assign image_urls = site.data.[include.URLfile] | newline_to_br | split: '<br />' %}
+  {% assign image_urls = site.data.{{ include.URLfile }} | newline_to_br | split: '<br />' %}
   {% for url in image_urls %}
     <img src="{{ url }}" alt="Image">
   {% endfor %}

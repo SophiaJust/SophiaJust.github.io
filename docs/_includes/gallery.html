@@ -1,5 +1,7 @@
-{% for image in site.data.images %}
-  {% if image.id == include.id %}
-    <img src="{{ image.url }}" alt="{{ image.id }}" width="{{ include.width }}" height="{{include.height }}" />
-  {% endif %}
-{% endfor %}
+<div class="grid">
+  {% for image in site.data.images %}
+    {% if image.id == include.id %}
+      <img src="{{ image.url }}" alt="{{ image.id }}" width="{{ include.width }}" height="{{include.height }}" />
+    {% endif %}
+  {% endfor %}
+</div>

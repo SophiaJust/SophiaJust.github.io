@@ -8,9 +8,8 @@ classes: wide
 <h1>Latest Images</h1>
 
 <div class="gallery">
-  {% assign image_urls=site.data.platform2_Plot1_cam1_NRT | newline_to_br | split: '<br />' %}
-  {% for url in image_urls %}
-    <img src="{{ url }}" alt="Image">
+  {% for item in site.data.images %}
+    <img src="{{ item.url }}" alt="Image">
   {% endfor %}
 </div>
 

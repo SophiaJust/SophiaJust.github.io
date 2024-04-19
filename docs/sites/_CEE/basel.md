@@ -4,7 +4,7 @@ title: "Basel"
 
 ## Latest Images
 
-Images will be displayed here.
+{% include gallery.html folder='A24' %}
 
 ## Past Month
 
